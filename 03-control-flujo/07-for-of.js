@@ -1,4 +1,4 @@
-//Con For of recorremos un array
+//Con For of recorremos un array y muestra los valores dentro...itera sobre strings y arrays
 let animales = ['Chancito Feliz','Dragon','Perrito'];
 
 for(let animal of animales){

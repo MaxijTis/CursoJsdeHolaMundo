@@ -1,3 +1,6 @@
+//Muestra el indice y las propiedades...se itera sobre Objetos
+
+
 let user = {
     id: 1,
     name: 'Chanchito Feliz',
@@ -9,7 +12,7 @@ for (let prop in user) {
 }
 
 //lo siguiente es una explicacion antigua que solia utilizarse antes
-//para arrays usar FOR OF
+//para arrays usar FOR OF!!!
 let animales = ['Chanchito Feliz', 'Dragon', 'Canguro'];
 for(let indice in animales){
     console.log(indice, animales[indice]);
